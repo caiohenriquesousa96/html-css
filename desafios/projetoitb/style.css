@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5954f1;
+}
+header {
+    background-color: #02006B;
+    color: white;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #4845E6, #0300E0);
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+nav > a:hover {
+    background-color: #01003b;
+    padding: 5px;
+}
+.apresentacao {
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+}
+header > p {
+    text-align: center;
+}
+main {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    margin: auto;
+}
+footer {
+    background-color: #020061;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+footer > p {
+    margin: 0px;
+}
+.apre1 {
+    font-size: 30px;
+}
+.apre2 {
+    background-image: linear-gradient(to right, #4845e6a6, #ffffff);
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.imagenita {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+img {
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 10px;
+}
+ul {
+    list-style-type: '/2714/0020/0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    img {
+        max-width: 100%;
+    }
+}
+.videoyoutube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+        font-family: 'Montserrat-ExtraBold';
+        src: url(Montserrat-ExtraBold.ttf) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(Montserrat-SemiBold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.apresentacao {
+    font-family: 'Montserrat-ExtraBold'
+}
+h2 {
+    font-family: 'Montserrat-SemiBold';
+}
+.videoyou {
+    background-color: #5954f1;
+    padding: 10px;
+    border-radius: 5px;
+}
